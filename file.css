@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+header{
+    margin: 20px 40px;   
+}
+.container{
+    display: flex;;
+}
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.h_leftside{
+    display: flex;
+}
+.h_leftside ul{
+    display: flex;
+    list-style: none;
+}
+.h_leftside ul li{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 40px;
+    cursor: pointer;
+}
+.h_rightside{
+    margin-left: 150px;
+}
+.h_rightside button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 14px;
+    border: 1px solid blue;
+    margin-right: 40px;
+    cursor: pointer;
+}
+/* first-section */
+.first-section .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 60px;
+}
+.first-section .s-leftside{
+    width: 40%;
+}
+.first-section .s-leftside h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.first-section .s-leftside button{
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 25px;
+    border: 1px solid blue;
+    width: 100px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.first-section .s-rightside{
+    width: 40%;
+}
+.first-section .s-rightside img{
+    width: 100%;
+    height: 600px;
+}
+/* section-company */
+p{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.company .row{
+    display: flex;
+    margin-bottom: 100px;
+}
+/* section-benefits */
+.benifits{
+    margin: 100px 70px;
+    display: flex;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.benifits .box{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+.benifits .box i{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+}
+.benifits .box p{
+    font-size: 20px;
+    color: gray;
+    opacity: 0.7;
+    text-align: left;
+    margin-top: 0px;
+}
+.benifits h5{
+    font-size: 30px;
+    margin: 25px 0;
+}
+.btn{
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+    padding: 15px;
+    width: 170px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* better */
+.better .container{
+    display: flex;
+    margin: 100px 50px;
+    gap: 100px;
+}
+.better .s-leftside{
+    width: 40%;
+}
+.better .s-leftside img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.better .s-rightside{
+    width: 45%;
+    padding: 5px 0;
+}
+.better .s-rightside h3{
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.better .s-rightside p{
+    font-size: 24px;
+    text-align: left;
+    margin-top: -5px;
+}
+.better .s-rightside i{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 50px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.better .s-rightside span{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+/* section-choice */
+.h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    
+}
+.choice .row{
+    display: flex;
+    gap: 200px;
+    margin-left: 80px;
+}
+.choice .box i{
+    width: 70px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 60px;
+    padding: 12px;
+    height: 70px;
+    padding: 22px;
+    margin-bottom: 30px;
+}
+.choice .box h5{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.choice .box li{
+    flex-direction: column;
+    font-size: 22px;
+    color: gray;
+    opacity: 0.7;
+    margin-bottom: 18px;
+}
+/* section-latestnews */
+.latestnews{
+    display: flex;
+    margin: 100px 60px;
+}
+.latestnews .first{
+    margin-right: 60px;
+}
+.latestnews .first h1{
+    font-size: 50px;
+    padding: 10px;
+}
+.latestnews .first p{
+    font-size: 30px;
+    padding: 10px;
+}
+.latestnews .first button{
+    background-color: blue;
+    height: 40px;
+    border: 1px solid blue;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.latestnews .second{
+    width: 28%;
+    padding: 10px;
+    margin-right: 60px;
+}
+.latestnews .second img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+.latestnews .second h4{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+}
+.latestnews .second p{
+    font-size: 20px;
+    padding: 10px;
+}
+.latestnews .second span{
+    padding: 10px;
+}
+.latestnews .second em{
+    margin-left: 40px;
+}
+
+/* section-clients */
+.clients{
+    margin: 100px 60px;
+}
+.clients h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.clients p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.clients .row{
+    display: flex;
+    overflow: hidden;
+}
+.clients .box{
+    margin-right: 50px;
+    min-width: 27%;
+    border: 0.5px solid rgb(202, 200, 200);
+    border-radius: 10px;
+    padding: 10px ;
+    margin-bottom: 20px;
+}
+.clients .box img{
+    width: 75px;
+    height: 70px;
+    border-radius: 130px;
+    margin-left: 105px;
+    margin-bottom: 20px;
+}
+.clients .box p{
+    font-size: 20px;
+    color: gray;
+    opacity: 0.7;
+}
+.clients .box h4{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 500;
+}
+.clients .box i{
+    color: orangered;
+    position: relative;
+}
+.star_rting{
+    margin-left: 193px;
+}
+.clients .box em{
+    margin-left: 160px;
+}
+/* section-register */
+.Register{
+    margin: 100px 0;
+}
+.Register h3{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 30px 0;
+}
+.Register p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+.Register button{
+    font-size: 17px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid blue;
+    padding: 12px;
+    margin-right: 50px;
+    width: 200px;
+}
+.Register .btn{
+    margin-left: 470px;
+}
+/* footer */
+/* first-colomn */
+.column-first{
+    width: 20%;
+    padding:100px 0;
+    margin-right: 150px;
+}
+.column-first h4{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.column-first p{
+    font-size: 20px;
+}
+/* second-column */
+.column-second,.social{
+    display: flex;
+    flex-direction: column;
+    margin:100px 0;
+}
+.column-second h5,.social h5{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 35px 35px 35px;
+}
+.column-second a{
+    padding: 0 35px 35px 35px;
+    color: gray;
+    font-size: 20px;
+}
+footer{
+    margin: 100px 60px;
+}
+.foot{
+    text-align: center;
+    font-size: 20px;
+}
